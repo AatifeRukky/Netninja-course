@@ -22,3 +22,5 @@ alert(admin)
 let planetName = 'earth';
 let currentUserName = 'Rukky';
 
+const string = "The revolution will not be televised ";
+console.log(string);
