@@ -228,7 +228,7 @@ for(let i = 0; i< scores.length; i++){
   }
 }*/
 // switch statements
-const grade = 'D';
+/*const grade = 'D';
 switch(grade){
 case 'A':
   console.log('you got an A!');
@@ -247,4 +247,11 @@ case 'A':
    break;
    default:
     console.log('not a valid grade')
+}*/
+
+//variABLES & block scope
+let age = 30;
+if(true){
+
 }
+console.log
