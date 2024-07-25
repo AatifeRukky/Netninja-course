@@ -51,3 +51,30 @@ let isWeekend = true;
 if (hour < 11 || hour > 19 || isWeekend) {
 	alert ('The office is closed');
 }
+
+let time = 14;
+let minute = 21;
+
+if (time == 14 && minute == 21 )
+	{alert('The time is 2:21');}
+
+/*if (1 && 0) {
+	alert('This is in favour of false');
+}*/
+
+if (2 || 0) {
+	alert(" This is in favour of True")
+}
+
+/*if ( 2 && 0)
+ {
+	console.log('This is in favour of false');
+}*/
+console.log('This is a test' || 0);
+
+console.log(!false);
+
+alert ( alert(1) && alert(2));
+alert(alert(1) || 2 || alert(3));
+
+if(!(age >= 14 && age <= 90) );
